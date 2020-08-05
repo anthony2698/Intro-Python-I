@@ -20,9 +20,7 @@ with open("foo.txt", "r") as f:
 
 # YOUR CODE HERE
 with open("bar.txt", "w") as f:
-    f.write("I'm a line!\n")
-    f.write("Me too!\n")
-    f.write("asfib")
+    f.write("I'm a line!\nMe too!\nasfib")
 
 with open("bar.txt", "r") as f:
     for line in f:
